@@ -1,4 +1,5 @@
 
+import PokemonList from "../PokemonList/PokemonList";
 import Search from "../Search/Search";
 
 // Import css
@@ -9,6 +10,7 @@ function Pokedex() {
         <div className="pokedex-wrapper">
         <h1 id="pokedex-heading">POKEDEX</h1>
         <Search/>
+        <PokemonList/>
         </div>
     )
 
