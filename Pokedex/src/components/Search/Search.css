@@ -5,6 +5,7 @@
 #pokemon-name-search {
     width: 600px;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     background-color: rgb(240, 240, 166);
 }
