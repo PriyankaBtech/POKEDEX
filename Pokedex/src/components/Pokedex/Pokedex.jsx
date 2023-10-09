@@ -1,4 +1,3 @@
-
 import PokemonList from "../PokemonList/PokemonList";
 import Search from "../Search/Search";
 
