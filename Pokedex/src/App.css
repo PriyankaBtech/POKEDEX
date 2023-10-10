@@ -1,0 +1,18 @@
+#pokedex-heading {
+    margin: 0 auto;
+    letter-spacing: 5px;
+}
+
+.outer-pokedex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer-pokedex a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+}
