@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-function usePokemonList() {
+function usePokemonList(url) {
 
     const [pokemonListState, setPokemonListState] = useState({
         pokemonList: [],
         isLoading: true,
-        pokedexUrl: 'https://pokeapi.co/api/v2/pokemon',
+        pokedexUrl: url,
         nextUrl: '',
         prevUrl: ''
     }); 
@@ -59,7 +59,7 @@ function usePokemonList() {
         downloadPokemons()
     }, [pokemonListState.pokedexUrl])
 
-    return {pokemonListState, setPokemonListState}
+    return [ pokemonListState, setPokemonListState ]
 }
 
 export default usePokemonList;
