@@ -5,13 +5,13 @@ Pokedex is a web application built in React that allows users to search and view
 
 ## Features
 
-###1. Search
+### 1. Search
 To search for Pokémon, follow these steps:
 1. Enter the name of the Pokémon.
 2. Press the "Enter" key.
 3. The search results will display matching Pokémon.
 
-###2. Next and Previous Navigation
+### 2. Next and Previous Navigation
 Use the "Next" and "Prev" buttons to navigate Pokémons:
 1. Click the "Next" button to load the next set of Pokémon.
 2. Click the "Prev" button to go back to the previous set of Pokémon.
