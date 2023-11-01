@@ -12,8 +12,8 @@ Link : https://priyankapokedex.netlify.app/
 
 
 ## Technology
-### Description: 
-React, Axios, React-Router-Dom
+### Dependencies: 
+React(Vite), Axios, React-Router-Dom
 ### Hook Used:
 useState, useEffect, useParams, custom hook
 
@@ -45,7 +45,7 @@ To run the Pokedex project, follow these steps:
 
   
 ## Acknowledgment
-The project was inspired by the Pokédex Electronic Toy. This project was created with guidance from the PW Skills course. The Person who help me to create thsi project is Sanket singh(currently working in GooglePay).
+The project was inspired by the Pokédex Electronic Toy. This project was created with guidance from the PW Skills course. The Person who help me to create this project is Sanket singh(currently working in GooglePay).
 
 
 ## Features What I Add and Change 
