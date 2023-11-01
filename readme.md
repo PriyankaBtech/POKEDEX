@@ -10,6 +10,13 @@ Pokedex is a web application built in React that allows users to search and view
 
 Link : https://priyankapokedex.netlify.app/
 
+
+## Technology
+### Description: 
+React, Axios, React-Router-Dom
+### Hook Used:
+useState, useEffect, useParams, custom hook
+
 ## Features
 
 ### 1. Search
