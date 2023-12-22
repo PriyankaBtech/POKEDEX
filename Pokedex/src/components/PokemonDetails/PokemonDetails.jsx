@@ -1,7 +1,8 @@
+import './PokemonDetails.css'
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import './PokemonDetails.css'
 
 function PokemonDetails({ pokemonName }) {
 
@@ -14,7 +15,7 @@ function PokemonDetails({ pokemonName }) {
         height: "",
         types: []
     });
-
+    
     async function downloadPokemons() {
 
         try {

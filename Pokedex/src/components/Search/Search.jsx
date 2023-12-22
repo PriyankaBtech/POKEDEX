@@ -1,5 +1,6 @@
-import useDebounce from '../../hooks/useDebounce';
 import './Search.css';
+
+import useDebounce from '../../hooks/useDebounce';
 
 function Search({ updateSearchTerm }) {
 

@@ -1,8 +1,10 @@
+import './Pokedex.css'
+
+import { useState } from "react";
+
+import PokemonDetails from "../PokemonDetails/PokemonDetails";
 import PokemonList from "../PokemonList/PokemonList";
 import Search from "../Search/Search";
-import { useState } from "react";
-import './Pokedex.css'
-import PokemonDetails from "../PokemonDetails/PokemonDetails";
 
 function Pokedex() {
     const [searchTerm, setSearchTerm] = useState('')

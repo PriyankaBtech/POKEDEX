@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
 import './pokemon.css';
+
+import { Link } from 'react-router-dom';
 
 function Pokemon({name, image, id}) {
     return (

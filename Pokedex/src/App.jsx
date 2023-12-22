@@ -1,6 +1,8 @@
 import './App.css'
-import CustomRoutes from './routes/CustomRoutes'
+
 import { Link } from 'react-router-dom'
+
+import CustomRoutes from './routes/CustomRoutes'
 
 function App() {
 

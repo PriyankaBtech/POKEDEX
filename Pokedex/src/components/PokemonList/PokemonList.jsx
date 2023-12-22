@@ -1,8 +1,9 @@
 import './PokemonList.css';
-import Pokemon from "../Pokemon/Pokemon";
-import usePokemonList from "../../hooks/usePokemonList";
 
-function PokemonList() { 
+import usePokemonList from "../../hooks/usePokemonList";
+import Pokemon from "../Pokemon/Pokemon";
+
+function PokemonList() {
     
     // contains UI logic
     const [ pokemonListState, setPokemonListState ] = usePokemonList('https://pokeapi.co/api/v2/pokemon')
