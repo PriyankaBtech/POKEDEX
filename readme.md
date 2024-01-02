@@ -55,7 +55,7 @@ The project was inspired by the Pokédex Electronic Toy. This project was create
 - **Customized Pokemon Details**: I updated the details of Pokemon by providing specific infomation through API.
 
 - **Enhanced User Interface**: I provide the frontend fresh and modern look, making the app even more user-friendly.
-- 
+  
 - **Add Debouncing in Search**: Handle Network call in search bar, it will delayed network call by 2000 milliseconds(2 seconds).
 
 
