@@ -1,14 +1,16 @@
 # POKEDEX
 
 ## Introduction
-Pokedex is a web application built in React that allows users to search and view information about Pokémon.
+Pokedex is a simple web application built in React that allows users to search and view information about Pokémon.
+
+Link : https://priyankapokedex.netlify.app/
 
 ![pokemon2](https://github.com/PriyankaBtech/POKEDEX_InReact/assets/109729930/10b51696-e62f-4748-a734-14d5fb568cc0)
 
 
 ![pokemon3](https://github.com/PriyankaBtech/POKEDEX_InReact/assets/109729930/c91a5292-bc54-4b9a-85f6-4a69bb1ce4a0)
 
-Link : https://priyankapokedex.netlify.app/
+
 
 
 ## Technology
@@ -53,6 +55,9 @@ The project was inspired by the Pokédex Electronic Toy. This project was create
 - **Customized Pokemon Details**: I updated the details of Pokemon by providing specific infomation through API.
 
 - **Enhanced User Interface**: I provide the frontend fresh and modern look, making the app even more user-friendly.
+- 
+- **Add Debouncing in Search**: Handle Network call in search bar, it will delayed network call by 2000 milliseconds(2 seconds).
+
 
 
 
